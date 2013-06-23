@@ -1,0 +1,61 @@
+/**
+ * Custom layout styles for MIT Informatics theme
+ *
+*/
+.cp-region {
+	outline: 1px solid #ccc;
+}
+.cp-region-header-first {
+	min-width: 1%;
+width: 1%;
+outline: 2px solid red;
+background: #fee;
+min-height: 1em;
+}
+.cp-region-header-second {
+	width: 65%;
+}
+.cp-region-header-third {
+	width: 33%;
+	margin-right: -100%;
+}
+.cp-region-sidebar-first,
+.cp-region-sidebar-second {
+outline: 2px solid red;
+background: #fee;
+min-width: 1%;
+width: 1%;
+min-height: 1em;
+}
+.cp-region-content {
+width: 96%;
+margin-bottom: 1em;
+min-height: 25em;
+}
+.cp-region-content-first {
+width: 33%;
+margin-right: 1%;
+}
+.cp-region-content-second {
+width: 40%;
+margin-right: 1%;
+margin-left: 0;
+}
+.cp-region-content-bottom {
+width: 25%;
+margin-top: 0;
+min-height: 18em;
+}
+.cp-region-footer-first {
+outline: 2px solid red;
+background: #fee;
+min-width: 1%;
+width: 1%;
+min-height: 1em;
+}
+.cp-region-footer {
+width: 65%;
+}
+.cp-region-footer-third {
+width: 32%;
+}
