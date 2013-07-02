@@ -124,11 +124,12 @@ dl dd {
 }
 blockquote {
 	margin: 1em;
-	font-style: italic;
+	color: inherit;
 }
 pre {
 	font-family: monospace;
 	white-space: pre;
+	margin-bottom: 1em;
 }
 code {
 	font-family: monospace;
