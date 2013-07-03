@@ -299,7 +299,12 @@ div#columns div#content-panels div.region div.block-inner {
 }
 /* Region-specific styles */
 body.front div#columns div#content-panels div.region-content-top {
-	margin-bottom: 1em;
+	background-color: #e6e6e6;
+	margin: 1em -1em;
+	padding: 1em;
+}
+body.front div#columns div#content-panels div.region-content-top div.region-inner {
+	padding-top: 0;
 }
 body.front div#columns div#content-panels div.region-content-first {
 	width: 220px;
@@ -416,6 +421,7 @@ div#tabs {
 	padding: 0;
 	font-size: 12px;
 	width: 100%;
+	background: none;
 }
 div#tabs ul.ui-tabs-nav {
 	padding: 0;
