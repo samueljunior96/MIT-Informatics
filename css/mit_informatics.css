@@ -511,3 +511,14 @@ body.not-front div#columns div.region h2 {
 body.front div#box-os_news_latest-page h1 {
 	font-size: 12px; /* This is the teaser headline under "Latest News" - should match other headlines in size */
 }
+
+body .feed_item span {
+	font-style: normal; 
+}
+body .feed_item a.title {
+	font-family: 'PT Sans Narrow','Arial Narrow',Arial, sans-serif;
+	color: #9a3334;
+	border-bottom: 1px solid #ccc;
+	display: block;
+	font-size: 14px;
+}
