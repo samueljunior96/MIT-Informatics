@@ -198,7 +198,6 @@ div#messages div.messages {
 header#header {
 	background: #9a3334;
 	color: #fff;
-	height: 63px;
 }
 header#header div#header-container {
 	margin: 0 auto;
@@ -214,6 +213,13 @@ header#header div.region-header-second {
 }
 header#header div.region-header-third {
 	float:right;
+}
+/* Spacing between blocks in right column of header */
+header#header div.region-header-third div.block {
+	margin-bottom: 1em;
+}
+header#header div.region-header-third div.block:first-child {
+	margin-top: 1em;
 }
 
 /* Other header styles */
@@ -233,7 +239,7 @@ header#header div#boxes-box-site_info h2 {
 	display: none;
 }
 header#header form#search-block-form {
-	padding-top: 20px;
+	padding: 0;
 }
 
 /* Menu bar */
