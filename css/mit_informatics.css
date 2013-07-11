@@ -502,6 +502,7 @@ div#columns div#content-column h1#page-title {
 	text-transform: uppercase;
 	font-family: 'PT Sans Narrow', 'Arial Narrow', 'Arial', sans-serif;
 	color: #9a3334;
+	line-height: 1em;
 }
 body.front div#columns div#content-panels div.region h2,
 body.not-front div#columns div.region h2 {
