@@ -327,7 +327,8 @@ body.front div#columns div#content-panels div.region-content-bottom {
 }
 div.region-content-first .block-boxes,
 div.region-content-second .block-boxes,
-div.region-content-bottom .block-boxes {
+div.region-content-bottom .block-boxes,
+div.region .block-views {
 	margin-bottom: 1em;
 }
 
@@ -516,8 +517,16 @@ body.not-front div#columns div.region h2 {
 	margin-bottom: 0.5em;
 }
 
+/* Front page events list shouldn't have border lines between events */
+body.front .view-os-events ul li {
+	border-bottom: none;
+}
+
 body.front div#box-os_news_latest-page h1 {
 	font-size: 12px; /* This is the teaser headline under "Latest News" - should match other headlines in size */
+}
+body.front div#box-os_news_latest-page article nav.clearfix {
+	display: none; /* This is a duplicate "read more" link, unneeded because the article title links to the article as well. */
 }
 
 body .feed_item span {
