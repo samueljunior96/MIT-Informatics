@@ -500,6 +500,12 @@ div#columns div#content-column p {
 div#columns div#content-column a {
 	font-weight: bold;
 }
+.node-content ul {
+	list-style: disc;
+}
+div#columns div#content-column ol {
+	list-style: decimal;
+}
 div#columns div#content-column h1#page-title {
 	margin-top: 0.5em;
 	font-size: 28px;
