@@ -85,6 +85,9 @@ h2, h3, h4, h5, h6 {
 	color: #9a3334;
 	border-bottom: 1px solid #ccc;
 }
+h2 {
+	font-size: 17px;
+}
 h3 {
 	font-size: 14px;
 	margin-top: 0.5em;
@@ -538,4 +541,13 @@ body .feed_item a.title {
 	border-bottom: 1px solid #ccc;
 	display: block;
 	font-size: 14px;
+}
+
+/* Blog page styles */
+div#content div.view-os-blog h2 a {
+	color: #9a3334;
+	font-weight: normal;
+}
+.view-os-blog .views-row {
+	margin-bottom: 3em;
 }
