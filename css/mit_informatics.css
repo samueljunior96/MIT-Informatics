@@ -526,16 +526,53 @@ body.not-front div#columns div.region h2 {
 	margin-bottom: 0.5em;
 }
 
-/* Front page events list shouldn't have border lines between events */
-body.front .view-os-events ul li {
-	border-bottom: none;
+/* Front page Publications */
+body.front .block-boxes-os_sv_list_box ul li {
+	margin-bottom: 10px;
+}
+body.front .block-boxes-os_sv_list_box ul li a {
+	margin-bottom: 5px;
 }
 
+/* Front page events list */
+body.front .view-os-events .views-row {
+	margin-bottom: 10px;
+	border-bottom: none;
+}
+body.front .view-os-events .views-row .views-field-colorbox {
+	margin-bottom: 3px;
+}
+body.front .view-os-events .views-row .views-field-field-date {
+	margin-bottom: 5px;
+}
+
+/* Front page Latest News block */
+body.front div#box-os_news_latest-page article.node {
+	margin-bottom: 10px;
+}
 body.front div#box-os_news_latest-page h1 {
 	font-size: 12px; /* This is the teaser headline under "Latest News" - should match other headlines in size */
+	margin-bottom: 3px;
+}
+body.front div#box-os_news_latest-page div.field-name-field-news-date {
+	margin-bottom: 5px;
 }
 body.front div#box-os_news_latest-page article nav.clearfix {
 	display: none; /* This is a duplicate "read more" link, unneeded because the article title links to the article as well. */
+}
+
+/* Front page Tweet list */
+body.front .tweets-pulled-listing li {
+	margin-bottom: 10px;
+}
+body.front .tweets-pulled-listing li .tweet-text {
+	margin-bottom: 3px;
+}
+body.front .tweets-pulled-listing li .tweet-time {
+	margin-bottom: 5px;
+}
+body.front .tweets-pulled-listing li .tweet-divider {
+	display: none;
 }
 
 body .feed_item span {
