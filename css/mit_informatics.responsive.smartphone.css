@@ -18,13 +18,13 @@
 #menu-bar ul.nice-menu li a {
     float: none;
      padding: 0.5em 1.6em;
-     background: #444;
+     /* background: #444; */
      border-bottom:1px solid #DDD;
  
 }
 
 #menu-bar ul.nice-menu li a.active {
-    background: #444;
+    /* background: #444; */
 }
 
 #menu-bar #block-os-primary-menu {

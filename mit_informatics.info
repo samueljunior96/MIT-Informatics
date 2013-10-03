@@ -20,6 +20,7 @@
 
   stylesheets[screen][] = css/mit_informatics.css
   stylesheets[screen][] = css/mit_informatics.responsive.layout.css
+  stylesheets[screen][] = css/mit_informatics.responsive.tablet.css
   stylesheets[screen][] = css/mit_informatics.responsive.smartphone.css
   stylesheets[screen][] = http://fonts.googleapis.com/css?family=PT+Sans+Narrow
 
