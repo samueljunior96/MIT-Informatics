@@ -595,3 +595,17 @@ div#content div.view-os-blog h2 a {
 .view-os-blog .views-row {
 	margin-bottom: 3em;
 }
+
+/* People page styles */
+article.node-person h2,
+.view-os-profiles .views-row header {
+	margin-bottom: 2px;
+}
+article.node-person .field-item,
+.view-os-profiles .views-row .field-item {
+	margin-bottom: 1px;
+}
+article.node-person .field-name-body,
+.view-os-profiles .views-row .field-name-body {
+	margin-top: 2px;
+}
