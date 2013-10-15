@@ -145,16 +145,6 @@ code {
 	margin-bottom: 1em;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Generic Styles */
 .element-invisible {
 	position: absolute;
@@ -172,12 +162,11 @@ div.node-content {
 	font-size: 12px;
 }
 
-
-
 /* ############################################################################
 ####
-#### Page Elements
+#### General Page Elements
 # */
+
 /* Overall container */
 div#page.container {
 	width: 100%;
@@ -289,44 +278,13 @@ div#columns div.hg-container {
 	width: 940px;
 /*	background: url("/profiles/openscholar/themes/custom/mit_informatics/images/16_col.gif") repeat scroll center top #FFFFFF; */
 }
-/* Now we start beating on the original CSS to achieve our desired layout */
-/* div#content-column becoms the top row */
-body.front div#columns div#content-column div.content-inner {
-	margin: 0;
-}
-body.front div#columns div#content-panels div.region {
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	border: none;
-}
+
 /* Styles for all regions */
 div#columns div#content-column div.content-inner {
 	padding: 0;
 }
 div#columns div#content-panels div.region div.block-inner {
 	margin: 0;
-}
-/* Region-specific styles */
-body.front div#columns div#content-panels div.region-content-top {
-	background-color: #e6e6e6;
-	margin: 1em -1em;
-	padding: 1em;
-}
-body.front div#columns div#content-panels div.region-content-top div.region-inner {
-	padding-top: 0;
-}
-body.front div#columns div#content-panels div.region-content-first {
-	width: 220px;
-	margin-right: 10px;
-}
-body.front div#columns div#content-panels div.region-content-second {
-	width: 460px;
-	margin: 0 10px;
-}
-body.front div#columns div#content-panels div.region-content-bottom {
-	width: 220px;
-	margin-left: 10px;
 }
 div.region-content-first .block-boxes,
 div.region-content-second .block-boxes,
@@ -335,38 +293,12 @@ div.region .block-views {
 	margin-bottom: 1em;
 }
 
-/* Panel-specific styles */
-/* Feature Project tabs */
-body.front div#columns div#content-column div.content-inner section#block-boxes-1362682820 {
-	display: inline-block;
-	width: 940px;
-	vertical-align: top;
+div.sidebar ul {
+	margin-left: 0;
 }
-body.front div#columns div#content-column div.content-inner section#block-boxes-1362682820 div.block-inner {
-	margin: 0;
+div.sidebar ul li {
+	list-style-type: none;
 }
-body.front div#columns div#content-column div.content-inner section#block-boxes-1362682820 div.block-inner h2.block-title {
-	display: inline-block;
-	width: 270px;
-	color: #fff;
-	background-color: #9a3334;
-	border-bottom: none;
-	padding: 5px;
-	font-size: 20px;
-	margin: 0 10px 0 0;
-}
-/* Feature image - the Dome */
-body.front div#columns div#content-column div.content-inner div#block-boxes-1362673486 {
-	display: inline-block;
-	width: 280px;
-	margin-left: 10px;
-}
-body.front div#columns div#content-column div.content-inner div#block-boxes-1362673486 div.block-inner {
-	margin: 0;
-}
-
-
-
 
 footer#footer {
 	position: absolute;
@@ -427,7 +359,74 @@ footer#footer div#powerby-login {
 	width: 980px;
 }
 
+/* ############################################################################
+####
+#### Front Page Styles
+# */
 
+/* Now we start beating on the original CSS to achieve our desired layout */
+/* div#content-column becoms the top row */
+body.front div#columns div#content-column div.content-inner {
+	margin: 0;
+}
+body.front div#columns div#content-panels div.region {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+/* Region-specific styles */
+body.front div#columns div#content-panels div.region-content-top {
+	background-color: #e6e6e6;
+	margin: 1em -1em;
+	padding: 1em;
+}
+body.front div#columns div#content-panels div.region-content-top div.region-inner {
+	padding-top: 0;
+}
+body.front div#columns div#content-panels div.region-content-first {
+	width: 220px;
+	margin-right: 10px;
+}
+body.front div#columns div#content-panels div.region-content-second {
+	width: 460px;
+	margin: 0 10px;
+}
+body.front div#columns div#content-panels div.region-content-bottom {
+	width: 220px;
+	margin-left: 10px;
+}
+
+/* Panel-specific styles */
+/* Feature Project tabs */
+body.front div#columns div#content-column div.content-inner section#block-boxes-1362682820 {
+	display: inline-block;
+	width: 940px;
+	vertical-align: top;
+}
+body.front div#columns div#content-column div.content-inner section#block-boxes-1362682820 div.block-inner {
+	margin: 0;
+}
+body.front div#columns div#content-column div.content-inner section#block-boxes-1362682820 div.block-inner h2.block-title {
+	display: inline-block;
+	width: 270px;
+	color: #fff;
+	background-color: #9a3334;
+	border-bottom: none;
+	padding: 5px;
+	font-size: 20px;
+	margin: 0 10px 0 0;
+}
+/* Feature image - the Dome */
+body.front div#columns div#content-column div.content-inner div#block-boxes-1362673486 {
+	display: inline-block;
+	width: 280px;
+	margin-left: 10px;
+}
+body.front div#columns div#content-column div.content-inner div#block-boxes-1362673486 div.block-inner {
+	margin: 0;
+}
 
 div#tabs {
 	padding: 0;
@@ -592,6 +591,11 @@ body .feed_item a.title {
 	font-size: 14px;
 }
 
+/* ############################################################################
+####
+#### Internal Page Styles
+# */
+
 /* Blog page styles */
 div#content div.view-os-blog h2 a {
 	color: #9a3334;
@@ -599,6 +603,9 @@ div#content div.view-os-blog h2 a {
 }
 .view-os-blog .views-row {
 	margin-bottom: 3em;
+}
+a[href*="http://feeds.wordpress.com"] {
+	display: none; /* Hide "Add a comment" links that come with WordPress feeds */
 }
 
 /* People page styles */
