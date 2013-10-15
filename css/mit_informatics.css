@@ -466,22 +466,27 @@ div#tabs div.ui-tabs-panel {
 	display: inline-block;
 	width: 640px;
 	padding: 0;
-	margin-top: -27px;
-	height: 210px;
+	margin-top: -23px;
 	background: none;
 	border-top: none;
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); /* Overriding an IE-specific gradient from global.pages.css */
+	filter: none;
+	-ms-filter: none;	
 }
 div#tabs div.ui-tabs-panel div.text {
-	width: 340px;
+	width: 330px;
 	margin-right: 10px;
 	display: inline;
 	float: left;
 }
 div#tabs div.ui-tabs-panel div.logo {
 	width: 280px;
-	margin-left: 10px;
+	margin-left: 0px;
 	display: inline;
 	float: left;
+	height: 100%;
+	background-color: #fff;
+	padding: 10px;
 }
 
 .ui-tabs-vertical {width:100%;}
@@ -599,13 +604,13 @@ div#content div.view-os-blog h2 a {
 /* People page styles */
 article.node-person h2,
 .view-os-profiles .views-row header {
-	margin-bottom: 2px;
+	margin-bottom: 3px; /* Spacing under title/link */
 }
 article.node-person .field-item,
 .view-os-profiles .views-row .field-item {
-	margin-bottom: 1px;
+	margin-bottom: 2px; /* Spacing between lines */
 }
 article.node-person .field-name-body,
 .view-os-profiles .views-row .field-name-body {
-	margin-top: 2px;
+	margin-top: 3px; /* Spacing after entry */
 }
