@@ -611,6 +611,12 @@ article.node-person .field-name-body {
 }
 
 /* News page styles */
+body.not-front .block-boxes-os_sv_list_box h1.node-title {
+	padding-bottom: 2px;
+}
+body.not-front .field-name-field-news-date {
+	padding-bottom: 3px;
+}
 
 /* Blog page styles */
 .view-os-blog .views-field-title {
