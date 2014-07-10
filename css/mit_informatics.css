@@ -234,6 +234,9 @@ header#header div#boxes-box-site_info h2 {
 header#header form#search-block-form {
 	padding: 0;
 }
+div#boxes-box-os_addthis .addthis_toolbox a span {
+	background-color: #fff;
+}
 
 /* Menu bar */
 div#menu-bar {
